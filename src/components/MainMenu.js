@@ -20,9 +20,10 @@ height: 100%;
 
 const MenuItem = styled(Link)
 `
-color: #ffffff;
+color: #ca188d;
 display: block;
 padding: 15px 20px;
+text-decoration: none;
 `
 
 const MainMenu = () => (
@@ -30,25 +31,28 @@ const MainMenu = () => (
     graphql
     `
     {
-      allWordpressMenusMenusItems {
+      allWordpressWpApiMenusMenusItems(filter:{name:{eq:"main menu"}}) {
         edges {
           node {
             items {
               title
-              slug
+              object_slug
             }
             name
           }
         }
       }
     }
+
     `
   }render={props=>(
     <MainMenuWrapper>
       <MainMenuInner>
         <Logo/>
-        {props.allWordpressMenusMenusItems.edges[0].node.items.map(item=>(
-          <MenuItem to={item.slug} key={item.title}/>
+        {props.allWordpressWpApiMenusMenusItems.edges[0].node.items.map(item=>(
+          <MenuItem to={`/${item.object_slug}`} key={item.title}>
+            {item.title}
+          </MenuItem>
         ))}
       </MainMenuInner>
     </MainMenuWrapper>
