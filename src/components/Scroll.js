@@ -1,5 +1,5 @@
 
-import React, { useEffect } from "https://unpkg.com/react@16/umd/react.production.min.js";
+import React, { useEffect } from "react";
 
 export default function Scroll() {
   useEffect(function mount() {

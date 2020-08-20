@@ -1,5 +1,4 @@
-
-import React from "https://unpkg.com/react@16/umd/react.production.min.js"
+import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"

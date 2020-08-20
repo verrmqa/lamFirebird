@@ -1,5 +1,4 @@
-import React from "https://unpkg.com/react@16/umd/react.production.min.js"
-
+import React from "react"
 import { graphql, StaticQuery, Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import styled , {createGlobalStyle} from 'styled-components'
