@@ -388,6 +388,12 @@ header {
       font-family: 'Montserrat-Bold';
     }
   }
+  &--social {
+    img {
+      width: 3.3117rem;
+      height: 3.3117rem;
+    }
+  }
 }
 
 //online
@@ -398,8 +404,10 @@ header {
   padding-left: 2.5974rem;
   &__pic {
     top: 0;
-    width: 101.4935rem;
-    height: 56.2338rem;
+    img {
+      width: 101.4935rem;
+      height: 56.2338rem;
+    }
   }
   &__content {
     padding-top: 12.3377rem;
@@ -431,10 +439,18 @@ header {
     &Vertical {
       right: 0;
       top: 33.7662rem;
+      img {
+        width: 20.9740rem;
+        height: 31.1039rem;
+      }
     }
     &Horizontal {
       right: 22.0779rem;
       top: 51.2987rem;
+      img {
+        width: 28.6364rem;
+        height: 16.1039rem;
+      }
     }
   }
 } 
@@ -454,8 +470,10 @@ header {
     box-shadow: 0 0.1299rem 0.9091rem 0 rgba(0, 0, 0, 0.19);
   }
   &__pic {
-    width: 17.8571rem;
-    height: 10.3896rem;
+    img {
+      width: 17.8571rem;
+      height: 10.3896rem;
+    }
   }
   &__content {
     padding: 3.2468rem 0.6494rem 1.9481rem 0.6494rem;
@@ -474,8 +492,10 @@ header {
   &__pic {
     top: 4.8701rem;
     right: 0;
-    width: 54.3506rem;
-    height: 55.6494rem;
+    img {
+      width: 54.3506rem;
+      height: 55.6494rem;
+    }
   }
   &__content {
     padding-top: 1.2987rem;
@@ -495,8 +515,10 @@ header {
   &__pic {
     top: 6.4935rem;
     left: 0;
-    width: 51.4935rem;
-    height: 55.6494rem;
+    img {
+      width: 51.4935rem;
+      height: 55.6494rem;
+    }
   }
   &__content {
     padding-top: 0.9740rem;
@@ -520,8 +542,10 @@ header {
   &__pic {
     right: 0;
     top: -9.7403rem;
-    width: 43.1169rem;
-    height: 58.7662rem;
+    img {
+      width: 43.1169rem;
+      height: 58.7662rem;
+    }
   }
   &__row {
     display: flex;    
@@ -632,8 +656,10 @@ header {
   padding-top: 14.9351rem;
   &__pic {
     top: 0;
-    width: 24.9351rem;
-    height: 60.9740rem;
+    img {
+      width: 24.9351rem;
+      height: 60.9740rem;
+    }
   }
   &__text {
     width: 35.7143rem;
@@ -717,8 +743,10 @@ header {
   &__pic {
     position: absolute;
     left: 42.2078rem;
-    top: 21.8182rem;
-    width: 49.3506rem;
+    img {
+      top: 21.8182rem;
+      width: 49.3506rem;
+    }
   }
 }
 
@@ -763,8 +791,10 @@ header {
     top: 3.8961rem;
     right: 0;
     z-index: -2;
-    width: 76.1039rem;
-    height: 53.4416rem;
+    img {
+      width: 76.1039rem;
+      height: 53.4416rem;
+    }
   }
 }
 
@@ -783,9 +813,11 @@ header {
     background: #ffffff;
   }
   &__pic {  
-    width: 32.3377rem;
-    height: 19.1558rem;
     background-size: cover;
+    img {
+      width: 32.3377rem;
+      height: 19.1558rem;
+    }
   }
   &__text {
     padding: 0.3896rem 0 0.7792rem 0;
@@ -833,15 +865,19 @@ header {
   color: #ffffff;
   &__pic {
     bottom: 0;
-    width: 123.5714rem;
-    height: 84.9351rem;
+    img {
+      width: 123.5714rem;
+      height: 84.9351rem;
+    }
   }
   &__social {
     width: 24.0260rem;
   }
   &__logo {
-    width: 6.8182rem;
-    height: 4.2208rem;
+    img {
+      width: 6.8182rem;
+      height: 4.2208rem;
+    }
   }
   &__title {
     padding: 0.6494rem 0 1.2987rem 0;

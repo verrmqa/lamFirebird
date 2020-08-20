@@ -411,6 +411,11 @@ header {
   font-family: 'Montserrat-Bold';
 }
 
+.link--social img {
+  width: 3.3117rem;
+  height: 3.3117rem;
+}
+
 .online {
   color: #ffffff;
   position: relative;
@@ -420,6 +425,9 @@ header {
 
 .online__pic {
   top: 0;
+}
+
+.online__pic img {
   width: 101.4935rem;
   height: 56.2338rem;
 }
@@ -472,9 +480,19 @@ header {
   top: 33.7662rem;
 }
 
+.online__ghostVertical img {
+  width: 20.9740rem;
+  height: 31.1039rem;
+}
+
 .online__ghostHorizontal {
   right: 22.0779rem;
   top: 51.2987rem;
+}
+
+.online__ghostHorizontal img {
+  width: 28.6364rem;
+  height: 16.1039rem;
 }
 
 .member__list .slick-slide {
@@ -490,7 +508,7 @@ header {
           box-shadow: 0 0.1299rem 0.9091rem 0 rgba(0, 0, 0, 0.19);
 }
 
-.member__pic {
+.member__pic img {
   width: 17.8571rem;
   height: 10.3896rem;
 }
@@ -526,6 +544,9 @@ header {
 .join__pic {
   top: 4.8701rem;
   right: 0;
+}
+
+.join__pic img {
   width: 54.3506rem;
   height: 55.6494rem;
 }
@@ -555,6 +576,9 @@ header {
 .about__pic {
   top: 6.4935rem;
   left: 0;
+}
+
+.about__pic img {
   width: 51.4935rem;
   height: 55.6494rem;
 }
@@ -586,6 +610,9 @@ header {
 .catalog__pic {
   right: 0;
   top: -9.7403rem;
+}
+
+.catalog__pic img {
   width: 43.1169rem;
   height: 58.7662rem;
 }
@@ -788,6 +815,9 @@ header {
 
 .lecture__pic {
   top: 0;
+}
+
+.lecture__pic img {
   width: 24.9351rem;
   height: 60.9740rem;
 }
@@ -888,6 +918,9 @@ header {
 .mission__pic {
   position: absolute;
   left: 42.2078rem;
+}
+
+.mission__pic img {
   top: 21.8182rem;
   width: 49.3506rem;
 }
@@ -974,6 +1007,9 @@ header {
   top: 3.8961rem;
   right: 0;
   z-index: -2;
+}
+
+.visit__pic img {
   width: 76.1039rem;
   height: 53.4416rem;
 }
@@ -997,9 +1033,12 @@ header {
 }
 
 .blog__pic {
+  background-size: cover;
+}
+
+.blog__pic img {
   width: 32.3377rem;
   height: 19.1558rem;
-  background-size: cover;
 }
 
 .blog__text {
@@ -1069,6 +1108,9 @@ header {
 
 .footer__pic {
   bottom: 0;
+}
+
+.footer__pic img {
   width: 123.5714rem;
   height: 84.9351rem;
 }
@@ -1077,7 +1119,7 @@ header {
   width: 24.0260rem;
 }
 
-.footer__logo {
+.footer__logo img {
   width: 6.8182rem;
   height: 4.2208rem;
 }
