@@ -1,16 +1,17 @@
 import React from "react"
 import { graphql, StaticQuery, Link } from "gatsby"
-import styled from 'style-components'
+import styled from 'styled-components'
 
 const SiteInfoWrapper = styled.div
 `
 flex-grow: 1;
-color: #ffffff;
+color: #ca188d;
 margin: auto 0;
 `
 
 const SiteTitle = styled.div 
 `
+color: #ca188d;
 font-weight: bold;
 `
 

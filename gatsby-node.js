@@ -127,6 +127,9 @@ exports.createPages = ({ graphql, actions }) => {
                 }
                 acf {
                   portfolio_url
+                  portfolio_pic {
+                    source_url
+                  }
                 }
               }
             }
