@@ -3,7 +3,7 @@
 
 
 
-import React, { Component } from "react";
+import React, { Component } from "https://unpkg.com/react@16/umd/react.production.min.js";
 import Link from "gatsby-link";
 import Slider from "react-slick";
 

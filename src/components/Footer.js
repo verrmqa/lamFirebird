@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "https://unpkg.com/react@16/umd/react.production.min.js"
 
 const footer = () => {
   return (

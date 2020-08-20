@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React from "https://unpkg.com/react@16/umd/react.production.min.js"
 
 
 import LogoSrc from "../images/logo.svg"
