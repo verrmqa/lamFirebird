@@ -1,3 +1,7 @@
+#___gatsby {
+  overflow: hidden;
+}
+
 .container {
   width: 77.9221rem;
   margin: 0 auto;
