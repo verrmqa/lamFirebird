@@ -37,7 +37,7 @@ module.exports = {
          * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
          * Example : 'demo.wp-api.org' or 'www.example-site.com'
          */
-        baseUrl: "www.firebird-test.admr.pro",
+        baseUrl: "firebird-test.admr.pro",
         // The protocol. This can be http or https.
         protocol: "http",
         // The rest api route prefix that your WordPress site is using.
