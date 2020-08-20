@@ -5,18 +5,18 @@ import styled , {createGlobalStyle} from 'styled-components'
 
 import SliderMember from "../components/sliderMember"
 import SliderBlog from "../components/sliderBlog"
-import Header from "./header"
-import Footer from "./footer"
+import Header from "../components/header"
+import Footer from "../components/Footer"
+import Scroll from "../components/Scroll";
+
+
 import "./layout.css"
-
-
 import "../css/fonts.css"
 import "../js/slick/slick.css"
 import "../js/slick/slick-theme.css"
 import "../css/normalize.css"
 import "../css/styles.css"
 
-import Scroll from "../components/Scroll";
 
 
 
