@@ -23,7 +23,7 @@ export default class sliderMember extends Component {
 
         <div className="member__item">
         <div className="member__pic">
-          <img src="./img/members--lovers.png" alt="img--member" className="img img--member"/>
+          <img src="../img/members--lovers.png" alt="img--member" className="img img--member"/>
         </div>
         <div className="member__content">
           <div className="member__title">
@@ -40,7 +40,7 @@ export default class sliderMember extends Component {
       </div>
       <div className="member__item">
         <div className="member__pic">
-          <img src="./img/members--lovers.png" alt="img--member" className="img img--member"/>
+          <img src="../img/members--lovers.png" alt="img--member" className="img img--member"/>
         </div>
         <div className="member__content">
           <div className="member__title">

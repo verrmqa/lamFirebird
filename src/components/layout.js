@@ -16,8 +16,7 @@ import "../js/slick/slick-theme.css"
 import "../css/normalize.css"
 import "../css/styles.css"
 
-
-import "../js/scripts.js"
+import Scroll from "../components/Scroll";
 
 
 
@@ -46,6 +45,7 @@ const Layout = ({children}) => (
   render = {props=> 
   <Helmet>
     <link rel="icon" href={props.allWordpressWpFavicon.edges[0].node.url.source_url}/>
+    
   </Helmet>
   }
   />
@@ -86,13 +86,13 @@ const Layout = ({children}) => (
       </div>
     </div>
     <div className="absolute online__pic">
-      <img src="./img/img--online.png" alt="img--online" className="img img--online"/>
+      <img src="../img/img--online.png" alt="img--online" className="img img--online"/>
     </div>
     <div className="absolute online__ghostVertical">
-      <img src="./img/ghost--vertical.png" alt="ghost--vertical" className="img img--ghostVertical"/>
+      <img src="../img/ghost--vertical.png" alt="ghost--vertical" className="img img--ghostVertical"/>
     </div>
     <div className="absolute online__ghostHorizontal">
-      <img src="./img/ghost--horizontal.png" alt="ghost--horizontal" className="img img--ghostHorizontal"/>
+      <img src="../img/ghost--horizontal.png" alt="ghost--horizontal" className="img img--ghostHorizontal"/>
     </div>
   </section>
 
@@ -658,6 +658,7 @@ const Layout = ({children}) => (
 
 </main>
 
+      <Scroll />
 
       <Footer/>
 </div>

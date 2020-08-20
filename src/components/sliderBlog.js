@@ -25,7 +25,7 @@ export default class sliderBlog extends Component {
 
         <div className="blog__item">
           <div className="blog__pic">
-            <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"></img>
+            <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"></img>
           </div>
           <div className="blog__box">
             <div className="blog__title">
@@ -42,7 +42,7 @@ export default class sliderBlog extends Component {
         </div>
         <div className="blog__item">
           <div className="blog__pic">
-            <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"></img>
+            <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"></img>
           </div>
           <div className="blog__box">
             <div className="blog__title">
@@ -59,7 +59,7 @@ export default class sliderBlog extends Component {
         </div>
         <div className="blog__item">
           <div className="blog__pic">
-            <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"></img>
+            <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"></img>
           </div>
           <div className="blog__box">
             <div className="blog__title">
@@ -76,7 +76,7 @@ export default class sliderBlog extends Component {
         </div>
         <div className="blog__item">
           <div className="blog__pic">
-            <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"></img>
+            <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"></img>
           </div>
           <div className="blog__box">
             <div className="blog__title">
@@ -93,7 +93,7 @@ export default class sliderBlog extends Component {
         </div>
         <div className="blog__item">
           <div className="blog__pic">
-            <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"></img>
+            <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"></img>
           </div>
           <div className="blog__box">
             <div className="blog__title">
@@ -110,7 +110,7 @@ export default class sliderBlog extends Component {
         </div>
         <div className="blog__item">
           <div className="blog__pic">
-            <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"></img>
+            <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"></img>
           </div>
           <div className="blog__box">
             <div className="blog__title">

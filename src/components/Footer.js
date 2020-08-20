@@ -10,7 +10,7 @@ const footer = () => {
         <div className="footer">
           <div className="footer__social">
             <div className="footer__logo">
-              <img src="./img/logo--footer.svg" alt="logo_footer" className="img img--logo_footer"></img>
+              <img src="../img/logo--footer.svg" alt="logo_footer" className="img img--logo_footer"></img>
             </div>
             <div className="footer__title">
               <p className="title title--footer">firebird</p>
@@ -23,22 +23,22 @@ const footer = () => {
               <div className="footer__icons">
                 <div className="footer__icon">
                   <a href="" className="link link--social">
-                    <img src="./img/icon--facebook.svg" alt="" className="img img--soc_fb"></img>
+                    <img src="../img/icon--facebook.svg" alt="" className="img img--soc_fb"></img>
                   </a>
                 </div>
                 <div className="footer__icon">
                   <a href="" className="link link--social">
-                    <img src="./img/icon--linkedin.svg" alt="" className="img img--soc_in"></img>
+                    <img src="../img/icon--linkedin.svg" alt="" className="img img--soc_in"></img>
                   </a>
                 </div>
                 <div className="footer__icon">
                   <a href="" className="link link--social">
-                    <img src="./img/icon--mail.svg" alt="" className="img img--soc_mail"></img>
+                    <img src="../img/icon--mail.svg" alt="" className="img img--soc_mail"></img>
                   </a>
                 </div>
                 <div className="footer__icon">
                   <a href="" className="link link--social">
-                    <img src="./img/icon--instagram.svg" alt="" className="img img--soc_instagram"></img>
+                    <img src="../img/icon--instagram.svg" alt="" className="img img--soc_instagram"></img>
                   </a>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const footer = () => {
         </div>
       </div>
       <div className="footer__pic absolute">
-        <img src="./img/img--footer.png" alt="img--footer" className="img img--footer"></img>
+        <img src="../img/img--footer.png" alt="img--footer" className="img img--footer"></img>
       </div>
     </div>
   </footer>

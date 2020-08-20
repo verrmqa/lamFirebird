@@ -581,21 +581,21 @@ header {
   }
 }
 .firstCard {
-  background-image: url(/img/firstFrame.png);
+  background-image: url(../img/firstFrame.png);
   .catalog__itemFrame {
     top: 10px;
     right: 10px;
   }
 }
 .secondCard {
-  background-image: url(/img/secondFrame.png);
+  background-image: url(../img/secondFrame.png);
   .catalog__itemFrame {
     bottom: 10px;
     left: 10px;
   }
 }
 .thirdCard {
-  background-image: url(/img/thirdFrame.png);
+  background-image: url(../img/thirdFrame.png);
   .catalog__itemFrame {
     top: 10px;
     left: 10px;
@@ -636,14 +636,14 @@ header {
     background-position: bottom;
     &First {
       margin: 0 0 25px 140px;
-      background-image: url(/img/lection--first.png);
+      background-image: url(../img/lection--first.png);
     }
     &Second {
       margin: 0 0 25px 70px;
-      background-image: url(/img/lection--second.png);
+      background-image: url(../img/lection--second.png);
     }
     &Third {
-      background-image: url(/img/lection--third.png);
+      background-image: url(../img/lection--third.png);
     }
     &Text {
       padding-left: 25px;

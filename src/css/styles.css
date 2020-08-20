@@ -728,7 +728,7 @@ header {
 }
 
 .firstCard {
-  background-image: url(/img/firstFrame.png);
+  background-image: url(../img/firstFrame.png);
 }
 
 .firstCard .catalog__itemFrame {
@@ -737,7 +737,7 @@ header {
 }
 
 .secondCard {
-  background-image: url(/img/secondFrame.png);
+  background-image: url(../img/secondFrame.png);
 }
 
 .secondCard .catalog__itemFrame {
@@ -746,7 +746,7 @@ header {
 }
 
 .thirdCard {
-  background-image: url(/img/thirdFrame.png);
+  background-image: url(../img/thirdFrame.png);
 }
 
 .thirdCard .catalog__itemFrame {
@@ -798,16 +798,16 @@ header {
 
 .lecture__teaserFirst {
   margin: 0 0 25px 140px;
-  background-image: url(/img/lection--first.png);
+  background-image: url(../img/lection--first.png);
 }
 
 .lecture__teaserSecond {
   margin: 0 0 25px 70px;
-  background-image: url(/img/lection--second.png);
+  background-image: url(../img/lection--second.png);
 }
 
 .lecture__teaserThird {
-  background-image: url(/img/lection--third.png);
+  background-image: url(../img/lection--third.png);
 }
 
 .lecture__teaserText {
