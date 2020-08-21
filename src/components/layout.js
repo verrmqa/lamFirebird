@@ -86,13 +86,13 @@ const Layout = ({children}) => (
       </div>
     </div>
     <div className="absolute online__pic">
-      <img src="../img/img--online.png" alt="img--online" className="img img--online"/>
+      <img src="./img/img--online.png" alt="img--online" className="img img--online"/>
     </div>
     <div className="absolute online__ghostVertical">
-      <img src="../img/ghost--vertical.png" alt="ghost--vertical" className="img img--ghostVertical"/>
+      <img src="./img/ghost--vertical.png" alt="ghost--vertical" className="img img--ghostVertical"/>
     </div>
     <div className="absolute online__ghostHorizontal">
-      <img src="../img/ghost--horizontal.png" alt="ghost--horizontal" className="img img--ghostHorizontal"/>
+      <img src="./img/ghost--horizontal.png" alt="ghost--horizontal" className="img img--ghostHorizontal"/>
     </div>
   </section>
 
@@ -130,7 +130,7 @@ const Layout = ({children}) => (
       </div>
     </div>
     <div className="join__pic absolute">
-      <img src="../img/img--join.png" alt="img--join" className="img img--section"/>
+      <img src="./img/img--join.png" alt="img--join" className="img img--section"/>
     </div>
   </section>
 
@@ -168,7 +168,7 @@ const Layout = ({children}) => (
       </div>
     </div>
     <div className="about__pic absolute">
-      <img src="../img/img--about.png" alt="img--about" className="img img--section"/>
+      <img src="./img/img--about.png" alt="img--about" className="img img--section"/>
     </div>
   </section>
 
@@ -194,14 +194,14 @@ const Layout = ({children}) => (
                 <div className="catalog__descr">
                   <div className="catalog__stat catalog__price">
                     <div className="catalog__pricePic">
-                      <img src="../img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
+                      <img src="./img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
                     </div>
                     <div className="catalog__statTitle"><span className="text text--statTitle">Price:</span></div>
                     <div className="catalog__statPrice"><span className="text text--statPrice">$10</span></div>
                   </div>
                   <div className="catalog__stat catalog__length">
                     <div className="catalog__lengthPic">
-                      <img src="../img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
+                      <img src="./img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
                     </div>
                     <div className="catalog__statTitle"><span className="text text--statTitle">20&nbsp;мин.</span></div>
                     <div className="catalog__statLength"><span className="text text--statLength">5&nbsp;video</span></div>
@@ -229,14 +229,14 @@ const Layout = ({children}) => (
                 <div className="catalog__descr">
                   <div className="catalog__stat catalog__price">
                     <div className="catalog__pricePic">
-                      <img src="../img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
+                      <img src="./img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
                     </div>
                     <div className="catalog__statTitle"><span className="text text--statTitle">Price:</span></div>
                     <div className="catalog__statPrice"><span className="text text--statPrice">$10</span></div>
                   </div>
                   <div className="catalog__stat catalog__length">
                     <div className="catalog__lengthPic">
-                      <img src="../img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
+                      <img src="./img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
                     </div>
                     <div className="catalog__statTitle"><span className="text text--statTitle">20&nbsp;мин.</span></div>
                     <div className="catalog__statLength"><span className="text text--statLength">5&nbsp;video</span></div>
@@ -264,14 +264,14 @@ const Layout = ({children}) => (
                 <div className="catalog__descr">
                   <div className="catalog__stat catalog__price">
                     <div className="catalog__pricePic">
-                      <img src="../img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
+                      <img src="./img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
                     </div>
                     <div className="catalog__statTitle"><span className="text text--statTitle">Price:</span></div>
                     <div className="catalog__statPrice"><span className="text text--statPrice">$10</span></div>
                   </div>
                   <div className="catalog__stat catalog__length">
                     <div className="catalog__lengthPic">
-                      <img src="../img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
+                      <img src="./img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
                     </div>
                     <div className="catalog__statTitle"><span className="text text--statTitle">20&nbsp;мин.</span></div>
                     <div className="catalog__statLength"><span className="text text--statLength">5&nbsp;video</span></div>
@@ -294,7 +294,7 @@ const Layout = ({children}) => (
       </div>
     </div>
     <div className="catalog__pic absolute">
-      <img src="../img/img--catalog.png" alt="img--catalog" className="img img--section"/>
+      <img src="./img/img--catalog.png" alt="img--catalog" className="img img--section"/>
     </div>
   </section>
 
@@ -364,7 +364,7 @@ const Layout = ({children}) => (
       </div>
     </div>
     <div className="lecture__pic absolute">
-      <img src="../img/img--lecture.png" alt="img--lecture" className="img img--section"/>
+      <img src="./img/img--lecture.png" alt="img--lecture" className="img img--section"/>
     </div>
   </section>
 
@@ -387,7 +387,7 @@ const Layout = ({children}) => (
           </div>
         </div>
         <div className="mission__pic">
-          <img src="../img/img--mission.png" alt="img--mission" className="img img--mission"/>
+          <img src="./img/img--mission.png" alt="img--mission" className="img img--mission"/>
         </div>
       </div>
     </div>
@@ -449,14 +449,14 @@ const Layout = ({children}) => (
             <div className="catalog__descr">
               <div className="catalog__stat catalog__price">
                 <div className="catalog__pricePic">
-                  <img src="../img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
+                  <img src="./img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
                 </div>
                 <div className="catalog__statTitle"><span className="text text--statTitle">Price:</span></div>
                 <div className="catalog__statPrice"><span className="text text--statPrice">$10</span></div>
               </div>
               <div className="catalog__stat catalog__length">
                 <div className="catalog__lengthPic">
-                  <img src="../img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
+                  <img src="./img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
                 </div>
                 <div className="catalog__statTitle"><span className="text text--statTitle">20&nbsp;мин.</span></div>
                 <div className="catalog__statLength"><span className="text text--statLength">5&nbsp;video</span></div>
@@ -484,14 +484,14 @@ const Layout = ({children}) => (
             <div className="catalog__descr">
               <div className="catalog__stat catalog__price">
                 <div className="catalog__pricePic">
-                  <img src="../img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
+                  <img src="./img/catalog--price.svg" alt="icon--price" className="icon icon--catalog"/>
                 </div>
                 <div className="catalog__statTitle"><span className="text text--statTitle">Price:</span></div>
                 <div className="catalog__statPrice"><span className="text text--statPrice">$10</span></div>
               </div>
               <div className="catalog__stat catalog__length">
                 <div className="catalog__lengthPic">
-                  <img src="../img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
+                  <img src="./img/catalog--length.svg" alt="icon--price" className="icon icon--catalog"/>
                 </div>
                 <div className="catalog__statTitle"><span className="text text--statTitle">20&nbsp;мин.</span></div>
                 <div className="catalog__statLength"><span className="text text--statLength">5&nbsp;video</span></div>
@@ -517,7 +517,7 @@ const Layout = ({children}) => (
       </div>
     </div>
     <div className="visit__pic absolute">
-      <img src="../img/img--visit.png" alt="img--visit" className="img img--visit"/>
+      <img src="./img/img--visit.png" alt="img--visit" className="img img--visit"/>
     </div>
   </section>
 
@@ -530,7 +530,92 @@ const Layout = ({children}) => (
         <div className="blog__slider">
           <div className="blog__item">
             <div className="blog__pic">
-              <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"/>
+              <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"/>
+            </div>
+            <div className="blog__box">
+              <div className="blog__title">
+                <p className="title title--blog">Заголовок статьи</p>
+              </div>
+              <div className="blog__text">
+                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
+                  штучки</p>
+              </div>
+              <div className="blog__link">
+                <a href="" className="link">Читать дальше</a>
+              </div>
+            </div>
+          </div>
+          <div className="blog__item">
+            <div className="blog__pic">
+              <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"/>
+            </div>
+            <div className="blog__box">
+              <div className="blog__title">
+                <p className="title title--blog">Заголовок статьи</p>
+              </div>
+              <div className="blog__text">
+                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
+                  штучки</p>
+              </div>
+              <div className="blog__link">
+                <a href="" className="link">Читать дальше</a>
+              </div>
+            </div>
+          </div>
+          <div className="blog__item">
+            <div className="blog__pic">
+              <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"/>
+            </div>
+            <div className="blog__box">
+              <div className="blog__title">
+                <p className="title title--blog">Заголовок статьи</p>
+              </div>
+              <div className="blog__text">
+                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
+                  штучки</p>
+              </div>
+              <div className="blog__link">
+                <a href="" className="link">Читать дальше</a>
+              </div>
+            </div>
+          </div>
+          <div className="blog__item">
+            <div className="blog__pic">
+              <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"/>
+            </div>
+            <div className="blog__box">
+              <div className="blog__title">
+                <p className="title title--blog">Заголовок статьи</p>
+              </div>
+              <div className="blog__text">
+                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
+                  штучки</p>
+              </div>
+              <div className="blog__link">
+                <a href="" className="link">Читать дальше</a>
+              </div>
+            </div>
+          </div>
+          <div className="blog__item">
+            <div className="blog__pic">
+              <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"/>
+            </div>
+            <div className="blog__box">
+              <div className="blog__title">
+                <p className="title title--blog">Заголовок статьи</p>
+              </div>
+              <div className="blog__text">
+                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
+                  штучки</p>
+              </div>
+              <div className="blog__link">
+                <a href="" className="link">Читать дальше</a>
+              </div>
+            </div>
+          </div>
+          <div className="blog__item">
+            <div className="blog__pic">
+              <img src="./img/img--blog.png" alt="img--blog" className="img img--blog"/>
             </div>
             <div className="blog__box">
               <div className="blog__title">
@@ -548,91 +633,6 @@ const Layout = ({children}) => (
           <div className="blog__item">
             <div className="blog__pic">
               <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"/>
-            </div>
-            <div className="blog__box">
-              <div className="blog__title">
-                <p className="title title--blog">Заголовок статьи</p>
-              </div>
-              <div className="blog__text">
-                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
-                  штучки</p>
-              </div>
-              <div className="blog__link">
-                <a href="" className="link">Читать дальше</a>
-              </div>
-            </div>
-          </div>
-          <div className="blog__item">
-            <div className="blog__pic">
-              <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"/>
-            </div>
-            <div className="blog__box">
-              <div className="blog__title">
-                <p className="title title--blog">Заголовок статьи</p>
-              </div>
-              <div className="blog__text">
-                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
-                  штучки</p>
-              </div>
-              <div className="blog__link">
-                <a href="" className="link">Читать дальше</a>
-              </div>
-            </div>
-          </div>
-          <div className="blog__item">
-            <div className="blog__pic">
-              <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"/>
-            </div>
-            <div className="blog__box">
-              <div className="blog__title">
-                <p className="title title--blog">Заголовок статьи</p>
-              </div>
-              <div className="blog__text">
-                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
-                  штучки</p>
-              </div>
-              <div className="blog__link">
-                <a href="" className="link">Читать дальше</a>
-              </div>
-            </div>
-          </div>
-          <div className="blog__item">
-            <div className="blog__pic">
-              <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"/>
-            </div>
-            <div className="blog__box">
-              <div className="blog__title">
-                <p className="title title--blog">Заголовок статьи</p>
-              </div>
-              <div className="blog__text">
-                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
-                  штучки</p>
-              </div>
-              <div className="blog__link">
-                <a href="" className="link">Читать дальше</a>
-              </div>
-            </div>
-          </div>
-          <div className="blog__item">
-            <div className="blog__pic">
-              <img src="../img/img--blog.png" alt="img--blog" className="img img--blog"/>
-            </div>
-            <div className="blog__box">
-              <div className="blog__title">
-                <p className="title title--blog">Заголовок статьи</p>
-              </div>
-              <div className="blog__text">
-                <p className="text text--blog">Краткий описательный текст на&nbsp;несколько строк, буквально на&nbsp;2-е
-                  штучки</p>
-              </div>
-              <div className="blog__link">
-                <a href="" className="link">Читать дальше</a>
-              </div>
-            </div>
-          </div>
-          <div className="blog__item">
-            <div className="blog__pic">
-              <img src=".../img/img--blog.png" alt="img--blog" className="img img--blog"/>
             </div>
             <div className="blog__box">
               <div className="blog__title">

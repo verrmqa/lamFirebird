@@ -7,10 +7,10 @@ $melonColor: #d09d31;
     content: "";
     display: inline-block;
     position: absolute;
-    left: -80px;
+    left: -4.1667rem;
     top: 0;
-    width: 55px;
-    height: 55px;
+    width: 2.8646rem;
+    height: 2.8646rem;
     background-color: #d09d31;
     border-radius: 50%;
   }
@@ -22,7 +22,7 @@ $melonColor: #d09d31;
     content: "";
     display: block;
     width: 100%;
-    height: 1px;
+    height: 0.0521rem;
     background-color: $melonColor;
   }
   a:hover {
@@ -31,33 +31,42 @@ $melonColor: #d09d31;
 }
 @mixin card {
   position: relative;  
-  width: 320px;
-  height: 425px;
-  border-radius: 8px;
+  width: 16.6667rem;
+  height: 22.1354rem;
+  border-radius: 0.4167rem;
   color: #ffffff;
   &Content {
     position: relative;
     z-index: 1;
-    width: 320px;
-    height: 425px;
-    padding: 35px 25px 30px 25px;
-    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.19);
+    width: 16.6667rem;
+    height: 22.1354rem;
+    padding: 1.8229rem 1.3021rem 1.5625rem 1.3021rem;
+    box-shadow: 0 0.1042rem 0.7292rem 0 rgba(0, 0, 0, 0.19);
     opacity: 1;
-    border-radius: 8px;
+    border-radius: 0.4167rem;
   }
   &Frame {
     position: absolute;
-    width: 320px;
-    height: 425px;
+    width: 16.6667rem;
+    height: 22.1354rem;
     z-index: -1;  
-    border-radius: 8px;
-    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.19);
-    border: solid 3px #501b12;
+    border-radius: 0.4167rem;
+    box-shadow: 0 0.1042rem 0.7292rem 0 rgba(0, 0, 0, 0.19);
+    border: solid 0.1563rem #501b12;
   }
 }
+
+
+@media screen and (min-width: 1920px) {
+  * {
+    font-size: 19.2px;
+  }
+}
+
+
 //container 
 .container {
-  width: 1200px;
+  width: 62.5000rem;
   margin: 0 auto;
 }
 
@@ -76,9 +85,9 @@ $melonColor: #d09d31;
 
 //button
 .button {
-  width: 203.9px;
-  height: 45px;
-  border-radius: 7px;
+  width: 10.6250rem;
+  height: 2.3438rem;
+  border-radius: 0.3646rem;
   background-color: $melonColor;
   display: flex;
   align-items: center;
@@ -96,16 +105,16 @@ $melonColor: #d09d31;
   }
   &-white {
     background-color: transparent;
-    border: 2px solid;
+    border: 0.1042rem solid;
   }
   &--catalog {
-    width: 98px;
+    width: 5.1042rem;
   }
   &--transparent {
     color: #000000;
     background-color: transparent;  
-    border-radius: 8px;
-    border: solid 3px $melonColor;
+    border-radius: 0.4167rem;
+    border: solid 0.1563rem $melonColor;
     &:hover {
       color: #000000;
     }
@@ -117,8 +126,8 @@ $melonColor: #d09d31;
   &--hero {
     color: #ffffff;
     font-family: 'Georgia-Bold';
-    font-size: 52px;
-    line-height: 58px;
+    font-size: 2.7083rem;
+    line-height: 3.0208rem;
     text-transform: uppercase;
     span {
       display: inline-block;
@@ -128,11 +137,11 @@ $melonColor: #d09d31;
   }
   &--teaser {
     font-family: 'Georgia-Bold';
-    font-size: 36px;
+    font-size: 1.8750rem;
   }
   &--section {
     font-family: 'Montserrat-Bold';
-    font-size: 42px;
+    font-size: 2.1875rem;
     line-height: 1.38;
     &Blog {
       color: #ffffff;
@@ -144,16 +153,16 @@ $melonColor: #d09d31;
   &--dotTop {
     @include dot;
     &::before {
-      top: -25px;
+      top: -1.3021rem;
     }
   }
   &--member {
     font-family: 'Montserrat-Bold';
-    font-size: 22px;
+    font-size: 1.1458rem;
   }
   &--block {
     font-family: 'Montserrat-Bold';
-    font-size: 32px;
+    font-size: 1.6667rem;
   }
   &--line {
     display: flex;
@@ -161,46 +170,46 @@ $melonColor: #d09d31;
     &:before {
       content: "";
       display: inline-block;
-      width: 65px;
-      height: 2px;
+      width: 3.3854rem;
+      height: 0.1042rem;
       background-color: $melonColor;
-      margin-right: 15px;
+      margin-right: 0.7813rem;
     }
   }
   &--lecture {
     &Teaser {
       font-family: 'Montserrat-Black';
-      font-size: 47px;
+      font-size: 2.4479rem;
     }
   }
   &--teaser {
     &Block {
       font-family: 'Montserrat-Bold';
-      font-size: 98px;
+      font-size: 5.1042rem;
     }
     &Subtitle {
       font-family: 'Montserrat-Bold';
-      font-size: 29px;
+      font-size: 1.5104rem;
       line-height: 1.21;
-      letter-spacing: 0.6px;
+      letter-spacing: 0.0313rem;
     }
   }
   &--visit {
     font-family: 'Montserrat-ExtraBold';
-    font-size: 60px;
+    font-size: 3.1250rem;
     &Subtitle {
       font-family: 'Montserrat-Medium';
-      font-size: 44px;
+      font-size: 2.2917rem;
     }
   }
   &--blog {
     font-family: 'Montserrat-Bold';
-    font-size: 24px;
+    font-size: 1.2500rem;
     color: #484848;
   }
   &--footer {
     font-family: 'Arial-BoldMT';
-    font-size: 23px;
+    font-size: 1.1979rem;
     text-transform: uppercase;
     &Menu {
       font-family: 'Montserrat-Bold';
@@ -217,81 +226,81 @@ $melonColor: #d09d31;
   &--label {
     text-transform: uppercase;  
     font-family: 'Arial-BoldMT';
-    font-size: 23px;
+    font-size: 1.1979rem;
   }
   &--teaser {
     font-family: 'Georgia-Bold';
     &Block {
-      font-size: 22px;
+      font-size: 1.1458rem;
     }
   }
   &--member {
     font-family: 'Montserrat-Regular';
-    font-size: 15px;
+    font-size: 0.7813rem;
   }
   &--dots {
       @include dot;
-      font-size: 18px;
-      line-height: 29px;
+      font-size: 0.9375rem;
+      line-height: 1.5104rem;
       &:before {
-        width: 10px;
-        height: 10px;
-        top: 10px;
-        left: -20px;
+        width: 0.5208rem;
+        height: 0.5208rem;
+        top: 0.5208rem;
+        left: -1.0417rem;
       }
   }
   &--subtitle {
     font-family: 'Montserrat-Medium';
-    font-size: 18px;
+    font-size: 0.9375rem;
   }
   &--catalog {
     &Name {
       font-family: 'Montserrat-ExtraBold';
-      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.5);
+      text-shadow: 0 0.1042rem 0.7292rem rgba(0, 0, 0, 0.5);
       text-decoration: underline;
-      font-size: 24px;
+      font-size: 1.2500rem;
     }
   }
   &--stat {
     &Title {
       font-family: 'Montserrat-Medium';
-      font-size: 14px;
+      font-size: 0.7292rem;
     }
     &Price {
       font-family: 'Montserrat-ExtraBold';
-      font-size: 30px;
+      font-size: 1.5625rem;
       color: $melonColor;
     }
     &Length {
       font-family: 'Montserrat-ExtraBold';
-      font-size: 20px;
+      font-size: 1.0417rem;
     }
   }
   &--lecture {
-    font-size: 22px;
+    font-size: 1.1458rem;
   }
   &--lecture {
     &Teaser {
       font-family: 'Montserrat-Medium';
-      font-size: 42px;
+      font-size: 2.1875rem;
     }
   }
   &--mission {
-    font-size: 22px;
+    font-size: 1.1458rem;
     span {
       display: inline-block;
     }
     &:last-child {
-      padding: 35px 0 80px 0;
+      padding: 1.8229rem 0 4.1667rem 0;
     }
   }
   &--blog {
-    font-size: 18px;
+    font-size: 0.9375rem;
     color: #545454;
   }
   &--footer {
     font-family: 'Montserrat-Light';
-    font-size: 14px;
+    font-size: 0.7292rem;
   }
 }
 
@@ -302,29 +311,37 @@ header {
   width: 100%;
   z-index: 2;
   color: #ffffff;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
 }
 .header {
   display: flex;
   align-items: center;
-  padding-top: 55px;
+  padding-top: 2.8646rem;
+  
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
   &__icon {
-    width: 60px;
+    width: 3.1250rem;
+    svg {
+      width: 3.2813rem;
+    }
   }
   &__label {
-    padding-left: 10px;
+    padding-left: 0.5208rem;
   }
   &__menu {
     display: flex;
-    padding-left: 150px;
+    padding-left: 7.8125rem;
   }
   &__link {
-    padding-left: 35px;
+    padding-left: 1.8229rem;
   }
   &__phone {
-    padding-left: 100px;
+    padding-left: 5.2083rem;
   }
   &__button {
-    padding-left: 50px;
+    padding-left: 2.6042rem;
   }
 }
 
@@ -332,27 +349,27 @@ header {
 .section {
   position: relative;
   &__online {
-    height: 1000px;
+    height: 52.0833rem;
   }
   &__join {
-    padding-top: 350px;
+    padding-top: 18.2292rem;
   }
   &__about {
-    padding-top: 370px;
+    padding-top: 19.2708rem;
   }
   &__catalog {
-    padding-top: 190px;
+    padding-top: 9.8958rem;
   }
   &__title {
     &--member {
-      width: 822px;
-      height: 116px;
+      width: 42.8125rem;
+      height: 6.0417rem;
     }
     &--join {
-      width: 525px;
+      width: 27.3438rem;
     }
     &--advantages {
-      padding-top: 55px;
+      padding-top: 2.8646rem;
     }
     &--lecture {
     }
@@ -363,7 +380,7 @@ header {
 .link {
   &--header_top {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 0.8333rem;
     font-family: 'Montserrat-Medium';
   }
   &--header_phone {
@@ -378,6 +395,12 @@ header {
       font-family: 'Montserrat-Bold';
     }
   }
+  &--social {
+    img {
+      width: 2.1354rem;
+      height: 2.1354rem;
+    }
+  }
 }
 
 //online
@@ -385,31 +408,35 @@ header {
   color: #ffffff;
   position: relative;
   z-index: 1;
-  padding-left: 40px;
+  padding-left: 2.0833rem;
   &__pic {
     top: 0;
+    img {
+      width: 83.3333rem;
+      height: 49.4792rem;
+    }
   }
   &__content {
-    padding-top: 290px;
+    padding-top: 15.1042rem;
   }
   &__text {
-    padding-top: 25px;
-    width: 490px;
+    padding-top: 1.3021rem;
+    width: 25.5208rem;
     font-family: 'Montserrat-Regular';
-    font-size: 22px;
+    font-size: 1.1458rem;
     line-height: 1.36;
   }
   &__buttons {
     display: flex;
     justify-content: space-between;
-    width: 455px;
-    padding-top: 50px;
+    width: 23.6979rem;
+    padding-top: 2.6042rem;
   }
   &__teasers {
     display: flex;
     justify-content: space-between;
-    width: 760px;
-    padding-top: 90px;
+    width: 39.5833rem;
+    padding-top: 4.6875rem;
   }
   &__teaser {
     display: flex;
@@ -418,11 +445,19 @@ header {
   &__ghost {
     &Vertical {
       right: 0;
-      top: 520px;
+      top: 27.0833rem;
+      img {
+        width: 16.8229rem;
+        height: 25.0000rem;
+      }
     }
     &Horizontal {
-      right: 340px;
-      top: 790px;
+      right: 17.7083rem;
+      top: 41.1458rem;
+      img {
+        width: 22.9167rem;
+        height: 12.9167rem;
+      }
     }
   }
 } 
@@ -431,22 +466,28 @@ header {
 .member {
   &__list {
     .slick-slide {
-      width: 265px;
-      margin: 10px 15px;
+      width: 13.8021rem;
+      margin: 0.5208rem 0.7813rem;
     }
   }
   &__item {
-    height: 393px;
+    height: 20.4688rem;
     overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1.0417rem;
+    box-shadow: 0 0.1042rem 0.7292rem 0 rgba(0, 0, 0, 0.19);
+  }
+  &__pic {
+    img {
+      width: 3.2813rem;
+      height: 7.9688rem;
+    }
   }
   &__content {
-    padding: 50px 10px 30px 10px;
+    padding: 2.6042rem 0.5208rem 1.5625rem 0.5208rem;
     text-align: center;
   }
   &__text {
-    padding: 15px 0 45px 0;
+    padding: 0.7813rem 0 2.3438rem 0;
   }
   &__link {
     @include underline;
@@ -456,42 +497,50 @@ header {
 //join
 .join {
   &__pic {
-    top: 75px;
+    top: 3.9063rem;
     right: 0;
+    img {
+      width: 44.6354rem;
+      height: 50.1563rem;
+    }
   }
   &__content {
-    padding-top: 20px;
+    padding-top: 1.0417rem;
   }
   &__text {
     display: flex;
     flex-direction: column;
   }
   &__button {
-    padding-top: 40px;
+    padding-top: 2.0833rem;
   }
 }
 
 //about
 .about {
-  padding-left: 580px;
+  padding-left: 30.2083rem;
   &__pic {
-    top: 100px;
+    top: 5.2083rem;
     left: 0;
+    img {
+      width: 42.1875rem;
+      height: 50.1563rem;
+    }
   }
   &__content {
-    padding-top: 15px;
+    padding-top: 0.7813rem;
   }
   &__text {
     display: flex;
     flex-direction: column;
     span {
       display: inline-block;
-      font-size: 18px;
-      line-height: 29px;
+      font-size: 0.9375rem;
+      line-height: 1.5104rem;
     }
   }
   &__button {
-    padding-top: 40px;
+    padding-top: 2.0833rem;
   }
 }
 
@@ -499,12 +548,16 @@ header {
 .catalog {
   &__pic {
     right: 0;
-    top: -150px;
+    top: -7.8125rem;
+    img {
+      width: 34.5833rem;
+      height: 47.1354rem;
+    }
   }
   &__row {
     display: flex;    
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 2.6042rem;
   }
   &__overlay {
     position: absolute;
@@ -513,7 +566,7 @@ header {
     top: 0;
     background: #501B12; 
     opacity: 0.6; 
-    border-radius: 8px;
+    border-radius: 0.4167rem;
   }
   &__item {  
     @include card;
@@ -522,15 +575,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 55px;
+    padding-bottom: 2.8646rem;
   }
   &__new {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 62px;
-    height: 28px;
-    border-radius: 17.5px;
+    width: 3.2292rem;
+    height: 1.4583rem;
+    border-radius: 0.9115rem;
     background-color: #d73f00;
     span {
       font-family: 'Montserrat-Medium';
@@ -540,30 +593,30 @@ header {
     font-family: 'Montserrat-Medium';
     span {
       display: inline;
-      font-size: 18px;
+      font-size: 0.9375rem;
     }
   }
   &__descr {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 40px 0;
+    padding: 1.0417rem 0 2.0833rem 0;
   }
   &__price {
     &Pic {
-      width: 22px;
+      width: 1.1458rem;
     }
   }
   &__length {
     &Pic {
-      width: 22px;
+      width: 1.1458rem;
     }
   }
   &__stat {
     &Title {
-      padding-top: 10px;
+      padding-top: 0.5208rem;
     }
     &Length {
-      margin-top: 5px;
+      margin-top: 0.2604rem;
     }
   }
   &__button {
@@ -572,33 +625,33 @@ header {
   }
   &__link { 
       @include underline;
-      padding-top: 10px;
+      padding-top: 0.5208rem;
   }
   &__buttonElse {
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 2.0833rem;
   }
 }
 .firstCard {
   background-image: url(../img/firstFrame.png);
   .catalog__itemFrame {
-    top: 10px;
-    right: 10px;
+    top: 0.5208rem;
+    right: 0.5208rem;
   }
 }
 .secondCard {
   background-image: url(../img/secondFrame.png);
   .catalog__itemFrame {
-    bottom: 10px;
-    left: 10px;
+    bottom: 0.5208rem;
+    left: 0.5208rem;
   }
 }
 .thirdCard {
   background-image: url(../img/thirdFrame.png);
   .catalog__itemFrame {
-    top: 10px;
-    left: 10px;
+    top: 0.5208rem;
+    left: 0.5208rem;
   }
 }
 
@@ -607,46 +660,50 @@ header {
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding-top: 230px;
+  padding-top: 11.9792rem;
   &__pic {
     top: 0;
+    img {
+      width: 20.0000rem;
+      height: 48.9063rem;
+    }
   }
   &__text {
-    width: 550px;
+    width: 28.6458rem;
   }
   &__block {
     &Raise {
-      padding: 55px 0 45px 0;
+      padding: 2.8646rem 0 2.3438rem 0;
       .lecture__text {
-        padding-left: 80px;
+        padding-left: 4.1667rem;
       }
     }
   }
   &__teasers {
     position: absolute;
     right: 0;
-    top: 120px;
+    top: 6.2500rem;
   }
   &__teaser { 
     position: relative; 
-    width: 483px;
-    height: 199px;
-    border-radius: 8px;
+    width: 25.1563rem;
+    height: 10.3646rem;
+    border-radius: 0.4167rem;
     background-size: cover;
     background-position: bottom;
     &First {
-      margin: 0 0 25px 140px;
+      margin: 0 0 1.3021rem 7.2917rem;
       background-image: url(../img/lection--first.png);
     }
     &Second {
-      margin: 0 0 25px 70px;
+      margin: 0 0 1.3021rem 3.6458rem;
       background-image: url(../img/lection--second.png);
     }
     &Third {
       background-image: url(../img/lection--third.png);
     }
     &Text {
-      padding-left: 25px;
+      padding-left: 1.3021rem;
     }
   }
   &__overlay {
@@ -656,29 +713,29 @@ header {
     top: 0;
     opacity: 0.3;
     background: linear-gradient(to right, #021f29, #501b12);
-    border-radius: 8px;
+    border-radius: 0.4167rem;
     z-index: 1;
   }
   &__box {
     position: relative;
     z-index: 1;
-    padding: 30px 0 0 20px;
-    width: 483px;
-    height: 199px;
+    padding: 1.5625rem 0 0 1.0417rem;
+    width: 25.1563rem;
+    height: 10.3646rem;
     opacity: 1;
-    border-radius: 8px;
+    border-radius: 0.4167rem;
     color: #ffffff;
   }
   &__shadow {  
     position: absolute;
     z-index: -1; 
-    width: 483px;
-    height: 199px;
+    width: 25.1563rem;
+    height: 10.3646rem;
     opacity: 0.3;
-    border-radius: 14px;
+    border-radius: 0.7292rem;
     background: linear-gradient(to right, #021f29, #501b12);
-    top: 10px;
-    left: 10px;
+    top: 0.5208rem;
+    left: 0.5208rem;
   }
 }
 
@@ -686,83 +743,95 @@ header {
 .mission {
   position: relative;
   display: flex;
-  padding-top: 455px;
+  padding-top: 23.6979rem;
   &__content {
-    width: 580px;
+    width: 30.2083rem;
   }
   &__pic {
     position: absolute;
-    left: 650px;
-    top: 336px;
-    width: 760px;
+    left: 33.8542rem;
+    top: 17.5000rem;
+    width: 39.5833rem;
+    img {
+      width: 41.9271rem;
+      height: 30.3125rem;
+    }
   }
 }
 
 //teaser 
 .teaser {
-  padding-top: 115px;
+  padding-top: 5.9896rem;
   display: flex;
   justify-content: space-between;
   &__item {
-    width: 330px;
+    width: 17.1875rem;
     &:last-child {
-      width: 225px;
-      margin-right: 120px;
+      width: 11.7188rem;
+      margin-right: 6.2500rem;
     }
   }
   &__subtitle {
-    padding-bottom: 10px;
+    padding-bottom: 0.5208rem;
   }
 }
 
 //visit 
 .visit {
   display: flex;
-  padding-top: 225px;
+  padding-top: 11.7188rem;
   &__item {
     @include card;
     &.secondCard {
-      margin-left: 30px;
+      margin-left: 1.5625rem;
       .catalog__itemFrame {
-        border: 3px solid hsla(0, 0%, 100%, 0.6);
+        border: 0.1563rem solid hsla(0, 0%, 100%, 0.6);
       }
     }
   }
   &__descr {
     color: #ffffff;
-    padding-left: 50px;
+    padding-left: 2.6042rem;
   }
   &__title {
-    padding-bottom: 50px;
+    padding-bottom: 2.6042rem;
   }
   &__pic {
-    top: 60px;
+    top: 3.1250rem;
     right: 0;
     z-index: -2;
+    img {
+      width: 61.0417rem;
+      height: 42.8646rem;
+    }
   }
 }
 
 //blog 
 .blog {
-  padding-top: 445px;
+  padding-top: 23.1771rem;
   &__item {
-    /* width: 498px!important; */
-    height: 444px;
+    /* width: 25.9375rem!important; */
+    height: 23.1250rem;
     overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 34px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 0.4167rem;
+    box-shadow: 0 0.2083rem 1.7708rem 0 rgba(0, 0, 0, 0.16);
   }
   &__box {
-    padding: 15px 30px 25px 30px;
+    padding: 0.7813rem 1.5625rem 1.3021rem 1.5625rem;
     background: #ffffff;
   }
   &__pic {  
-    width: 498px;
-    height: 295px;
+    width: 25.9375rem;
+    height: 15.3646rem;
     background-size: cover;
+    img {
+      width: 26.0417rem;
+      height: 17.2917rem;
+    }
   }
   &__text {
-    padding: 6px 0 12px 0;
+    padding: 0.3125rem 0 0.6250rem 0;
   }
   &__link {
     a {
@@ -773,11 +842,11 @@ header {
     }
   }
   &__slider {
-    padding-top: 35px;
-    max-width: 1080px;
-    margin: 0 auto 30px auto;
+    padding-top: 1.8229rem;
+    max-width: 56.2500rem;
+    margin: 0 auto 1.5625rem auto;
     .slick-dots li button::before {
-      font-size: 16px;
+      font-size: 0.8333rem;
       color: #fff;
       opacity: 1;
     }
@@ -785,15 +854,15 @@ header {
       color: $melonColor;
     }
     .slick-slide {
-      width: 498px;
-      height: 250px;
-      margin: 0 40px;
-      padding: 15px;
+      width: 25.9375rem;
+      height: 13.0208rem;
+      margin: 0 2.0833rem;
+      padding: 0.7813rem;
     }
   }
   &__button {
     a {
-      margin: 45px auto 0;
+      margin: 2.3438rem auto 0;
       color: #ffffff;
     }
   }
@@ -803,29 +872,37 @@ header {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 114px 0 80px 0;
+  padding: 5.9375rem 0 4.1667rem 0;
   color: #ffffff;
   &__pic {
     bottom: 0;
+    img {
+      width: 100rem;
+      height: 68.7500rem;
+    }
   }
   &__social {
-    width: 370px;
+    width: 19.2708rem;
   }
   &__logo {
-    width: 105px;
-    height: 65px;
+    width: 5.4688rem;
+    height: 3.3854rem;
+    img {
+      width: 5.4688rem;
+      height: 3.3854rem;
+    }
   }
   &__title {
-    padding: 10px 0 20px 0;
+    padding: 0.5208rem 0 1.0417rem 0;
   }
   &__icons {
     display: flex;
-    padding-top: 10px;
+    padding-top: 0.5208rem;
   }
   &__icon {
-    width: 41px;
-    height: 41px;
-    margin-right: 17px;
+    width: 2.1354rem;
+    height: 2.1354rem;
+    margin-right: 0.8854rem;
   }
   &__button {
     a {
@@ -833,16 +910,16 @@ header {
     }
   }
   &__menu {
-    font-size: 18px;
+    font-size: 0.9375rem;
     &Title {
-      padding-bottom: 40px;
+      padding-bottom: 2.0833rem;
     }
   }
   &__item {
-    padding-bottom: 20px;
+    padding-bottom: 1.0417rem;
   }
   &__contact {
-    margin-right: 130px;
+    margin-right: 6.7708rem;
   }
 }
 

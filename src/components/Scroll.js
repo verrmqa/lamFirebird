@@ -11,6 +11,7 @@ export default function Scroll() {
       const linkHeader = document.querySelectorAll(".link--header_top");
       if(window.pageYOffset > 714) {
         header.style.color = "#000000";
+        header.style.background = "#ffffff";
         headerPhone.style.color = "#000000";
         linkHeader.forEach(item => {
           item.style.color = "#000000";
@@ -20,6 +21,8 @@ export default function Scroll() {
         })
       } else {
         header.style.color = "#ffffff";
+        header.style.background = "transparent";
+        console.log(header.style.background)
         headerPhone.style.color = "#ffffff";
         linkHeader.forEach(item => {
           item.style.color = "#ffffff";
