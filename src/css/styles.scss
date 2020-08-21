@@ -7,10 +7,10 @@ $melonColor: #d09d31;
     content: "";
     display: inline-block;
     position: absolute;
-    left: -5.1948rem;
+    left: -80px;
     top: 0;
-    width: 3.5714rem;
-    height: 3.5714rem;
+    width: 55px;
+    height: 55px;
     background-color: #d09d31;
     border-radius: 50%;
   }
@@ -22,7 +22,7 @@ $melonColor: #d09d31;
     content: "";
     display: block;
     width: 100%;
-    height: 0.0649rem;
+    height: 1px;
     background-color: $melonColor;
   }
   a:hover {
@@ -31,40 +31,33 @@ $melonColor: #d09d31;
 }
 @mixin card {
   position: relative;  
-  width: 20.7792rem;
-  height: 27.5974rem;
-  border-radius: 0.5195rem;
+  width: 320px;
+  height: 425px;
+  border-radius: 8px;
   color: #ffffff;
   &Content {
     position: relative;
     z-index: 1;
-    width: 20.7792rem;
-    height: 27.5974rem;
-    padding: 2.2727rem 1.6234rem 1.9481rem 1.6234rem;
-    box-shadow: 0 0.1299rem 0.9091rem 0 rgba(0, 0, 0, 0.19);
+    width: 320px;
+    height: 425px;
+    padding: 35px 25px 30px 25px;
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.19);
     opacity: 1;
-    border-radius: 0.5195rem;
+    border-radius: 8px;
   }
   &Frame {
     position: absolute;
-    width: 20.7792rem;
-    height: 27.5974rem;
+    width: 320px;
+    height: 425px;
     z-index: -1;  
-    border-radius: 0.5195rem;
-    box-shadow: 0 0.1299rem 0.9091rem 0 rgba(0, 0, 0, 0.19);
-    border: solid 0.1948rem #501b12;
+    border-radius: 8px;
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.19);
+    border: solid 3px #501b12;
   }
 }
-
-#___gatsby {
-  overflow: hidden;
-}
-
-
-
 //container 
 .container {
-  width: 77.9221rem;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -83,9 +76,9 @@ $melonColor: #d09d31;
 
 //button
 .button {
-  width: 13.2468rem;
-  height: 2.9221rem;
-  border-radius: 0.4545rem;
+  width: 203.9px;
+  height: 45px;
+  border-radius: 7px;
   background-color: $melonColor;
   display: flex;
   align-items: center;
@@ -103,16 +96,16 @@ $melonColor: #d09d31;
   }
   &-white {
     background-color: transparent;
-    border: 0.1299rem solid;
+    border: 2px solid;
   }
   &--catalog {
-    width: 6.3636rem;
+    width: 98px;
   }
   &--transparent {
     color: #000000;
     background-color: transparent;  
-    border-radius: 0.5195rem;
-    border: solid 0.1948rem $melonColor;
+    border-radius: 8px;
+    border: solid 3px $melonColor;
     &:hover {
       color: #000000;
     }
@@ -124,8 +117,8 @@ $melonColor: #d09d31;
   &--hero {
     color: #ffffff;
     font-family: 'Georgia-Bold';
-    font-size: 3.3766rem;
-    line-height: 3.7662rem;
+    font-size: 52px;
+    line-height: 58px;
     text-transform: uppercase;
     span {
       display: inline-block;
@@ -135,11 +128,11 @@ $melonColor: #d09d31;
   }
   &--teaser {
     font-family: 'Georgia-Bold';
-    font-size: 2.3377rem;
+    font-size: 36px;
   }
   &--section {
     font-family: 'Montserrat-Bold';
-    font-size: 2.7273rem;
+    font-size: 42px;
     line-height: 1.38;
     &Blog {
       color: #ffffff;
@@ -151,16 +144,16 @@ $melonColor: #d09d31;
   &--dotTop {
     @include dot;
     &::before {
-      top: -1.6234rem;
+      top: -25px;
     }
   }
   &--member {
     font-family: 'Montserrat-Bold';
-    font-size: 1.4286rem;
+    font-size: 22px;
   }
   &--block {
     font-family: 'Montserrat-Bold';
-    font-size: 2.0779rem;
+    font-size: 32px;
   }
   &--line {
     display: flex;
@@ -168,46 +161,46 @@ $melonColor: #d09d31;
     &:before {
       content: "";
       display: inline-block;
-      width: 4.2208rem;
-      height: 0.1299rem;
+      width: 65px;
+      height: 2px;
       background-color: $melonColor;
-      margin-right: 0.9740rem;
+      margin-right: 15px;
     }
   }
   &--lecture {
     &Teaser {
       font-family: 'Montserrat-Black';
-      font-size: 3.0519rem;
+      font-size: 47px;
     }
   }
   &--teaser {
     &Block {
       font-family: 'Montserrat-Bold';
-      font-size: 6.3636rem;
+      font-size: 98px;
     }
     &Subtitle {
       font-family: 'Montserrat-Bold';
-      font-size: 1.8831rem;
+      font-size: 29px;
       line-height: 1.21;
-      letter-spacing: 0.0390rem;
+      letter-spacing: 0.6px;
     }
   }
   &--visit {
     font-family: 'Montserrat-ExtraBold';
-    font-size: 3.8961rem;
+    font-size: 60px;
     &Subtitle {
       font-family: 'Montserrat-Medium';
-      font-size: 2.8571rem;
+      font-size: 44px;
     }
   }
   &--blog {
     font-family: 'Montserrat-Bold';
-    font-size: 1.5584rem;
+    font-size: 24px;
     color: #484848;
   }
   &--footer {
     font-family: 'Arial-BoldMT';
-    font-size: 1.4935rem;
+    font-size: 23px;
     text-transform: uppercase;
     &Menu {
       font-family: 'Montserrat-Bold';
@@ -224,81 +217,81 @@ $melonColor: #d09d31;
   &--label {
     text-transform: uppercase;  
     font-family: 'Arial-BoldMT';
-    font-size: 1.4935rem;
+    font-size: 23px;
   }
   &--teaser {
     font-family: 'Georgia-Bold';
     &Block {
-      font-size: 1.4286rem;
+      font-size: 22px;
     }
   }
   &--member {
     font-family: 'Montserrat-Regular';
-    font-size: 0.9740rem;
+    font-size: 15px;
   }
   &--dots {
       @include dot;
-      font-size: 1.1688rem;
-      line-height: 1.8831rem;
+      font-size: 18px;
+      line-height: 29px;
       &:before {
-        width: 0.6494rem;
-        height: 0.6494rem;
-        top: 0.6494rem;
-        left: -1.2987rem;
+        width: 10px;
+        height: 10px;
+        top: 10px;
+        left: -20px;
       }
   }
   &--subtitle {
     font-family: 'Montserrat-Medium';
-    font-size: 1.1688rem;
+    font-size: 18px;
   }
   &--catalog {
     &Name {
       font-family: 'Montserrat-ExtraBold';
-      text-shadow: 0 0.1299rem 0.9091rem rgba(0, 0, 0, 0.5);
+      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.5);
       text-decoration: underline;
-      font-size: 1.5584rem;
+      font-size: 24px;
     }
   }
   &--stat {
     &Title {
       font-family: 'Montserrat-Medium';
-      font-size: 0.9091rem;
+      font-size: 14px;
     }
     &Price {
       font-family: 'Montserrat-ExtraBold';
-      font-size: 1.9481rem;
+      font-size: 30px;
       color: $melonColor;
     }
     &Length {
       font-family: 'Montserrat-ExtraBold';
-      font-size: 1.2987rem;
+      font-size: 20px;
     }
   }
   &--lecture {
-    font-size: 1.4286rem;
+    font-size: 22px;
   }
   &--lecture {
     &Teaser {
       font-family: 'Montserrat-Medium';
-      font-size: 2.7273rem;
+      font-size: 42px;
     }
   }
   &--mission {
-    font-size: 1.4286rem;
+    font-size: 22px;
     span {
       display: inline-block;
     }
     &:last-child {
-      padding: 2.2727rem 0 5.1948rem 0;
+      padding: 35px 0 80px 0;
     }
   }
   &--blog {
-    font-size: 1.1688rem;
+    font-size: 18px;
     color: #545454;
   }
   &--footer {
     font-family: 'Montserrat-Light';
-    font-size: 0.9091rem;
+    font-size: 14px;
   }
 }
 
@@ -313,28 +306,25 @@ header {
 .header {
   display: flex;
   align-items: center;
-  padding-top: 3.5714rem;
+  padding-top: 55px;
   &__icon {
-    width: 3.8961rem;
-    svg {
-      width: 3.8961rem;
-    }
+    width: 60px;
   }
   &__label {
-    padding-left: 0.6494rem;
+    padding-left: 10px;
   }
   &__menu {
     display: flex;
-    padding-left: 9.7403rem;
+    padding-left: 150px;
   }
   &__link {
-    padding-left: 2.2727rem;
+    padding-left: 35px;
   }
   &__phone {
-    padding-left: 6.4935rem;
+    padding-left: 100px;
   }
   &__button {
-    padding-left: 3.2468rem;
+    padding-left: 50px;
   }
 }
 
@@ -342,27 +332,27 @@ header {
 .section {
   position: relative;
   &__online {
-    height: 64.9351rem;
+    height: 1000px;
   }
   &__join {
-    padding-top: 22.7273rem;
+    padding-top: 350px;
   }
   &__about {
-    padding-top: 24.0260rem;
+    padding-top: 370px;
   }
   &__catalog {
-    padding-top: 12.3377rem;
+    padding-top: 190px;
   }
   &__title {
     &--member {
-      width: 53.3766rem;
-      height: 7.5325rem;
+      width: 822px;
+      height: 116px;
     }
     &--join {
-      width: 34.0909rem;
+      width: 525px;
     }
     &--advantages {
-      padding-top: 3.5714rem;
+      padding-top: 55px;
     }
     &--lecture {
     }
@@ -373,7 +363,7 @@ header {
 .link {
   &--header_top {
     color: #ffffff;
-    font-size: 1.0390rem;
+    font-size: 16px;
     font-family: 'Montserrat-Medium';
   }
   &--header_phone {
@@ -388,12 +378,6 @@ header {
       font-family: 'Montserrat-Bold';
     }
   }
-  &--social {
-    img {
-      width: 3.3117rem;
-      height: 3.3117rem;
-    }
-  }
 }
 
 //online
@@ -401,35 +385,31 @@ header {
   color: #ffffff;
   position: relative;
   z-index: 1;
-  padding-left: 2.5974rem;
+  padding-left: 40px;
   &__pic {
     top: 0;
-    img {
-      width: 101.4935rem;
-      height: 56.2338rem;
-    }
   }
   &__content {
-    padding-top: 12.3377rem;
+    padding-top: 290px;
   }
   &__text {
-    padding-top: 1.6234rem;
-    width: 31.8182rem;
+    padding-top: 25px;
+    width: 490px;
     font-family: 'Montserrat-Regular';
-    font-size: 1.4286rem;
+    font-size: 22px;
     line-height: 1.36;
   }
   &__buttons {
     display: flex;
     justify-content: space-between;
-    width: 29.5455rem;
-    padding-top: 3.2468rem;
+    width: 455px;
+    padding-top: 50px;
   }
   &__teasers {
     display: flex;
     justify-content: space-between;
-    width: 49.3506rem;
-    padding-top: 5.8442rem;
+    width: 760px;
+    padding-top: 90px;
   }
   &__teaser {
     display: flex;
@@ -438,19 +418,11 @@ header {
   &__ghost {
     &Vertical {
       right: 0;
-      top: 33.7662rem;
-      img {
-        width: 20.9740rem;
-        height: 31.1039rem;
-      }
+      top: 520px;
     }
     &Horizontal {
-      right: 22.0779rem;
-      top: 51.2987rem;
-      img {
-        width: 28.6364rem;
-        height: 16.1039rem;
-      }
+      right: 340px;
+      top: 790px;
     }
   }
 } 
@@ -459,28 +431,22 @@ header {
 .member {
   &__list {
     .slick-slide {
-      width: 17.2078rem;
-      margin: 0.6494rem 0.9740rem;
+      width: 265px;
+      margin: 10px 15px;
     }
   }
   &__item {
-    height: 25.5195rem;
+    height: 393px;
     overflow: hidden;
-    border-radius: 1.2987rem;
-    box-shadow: 0 0.1299rem 0.9091rem 0 rgba(0, 0, 0, 0.19);
-  }
-  &__pic {
-    img {
-      width: 17.8571rem;
-      height: 10.3896rem;
-    }
+    border-radius: 20px;
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.19);
   }
   &__content {
-    padding: 3.2468rem 0.6494rem 1.9481rem 0.6494rem;
+    padding: 50px 10px 30px 10px;
     text-align: center;
   }
   &__text {
-    padding: 0.9740rem 0 2.9221rem 0;
+    padding: 15px 0 45px 0;
   }
   &__link {
     @include underline;
@@ -490,50 +456,42 @@ header {
 //join
 .join {
   &__pic {
-    top: 4.8701rem;
+    top: 75px;
     right: 0;
-    img {
-      width: 54.3506rem;
-      height: 55.6494rem;
-    }
   }
   &__content {
-    padding-top: 1.2987rem;
+    padding-top: 20px;
   }
   &__text {
     display: flex;
     flex-direction: column;
   }
   &__button {
-    padding-top: 2.5974rem;
+    padding-top: 40px;
   }
 }
 
 //about
 .about {
-  padding-left: 37.6623rem;
+  padding-left: 580px;
   &__pic {
-    top: 6.4935rem;
+    top: 100px;
     left: 0;
-    img {
-      width: 51.4935rem;
-      height: 55.6494rem;
-    }
   }
   &__content {
-    padding-top: 0.9740rem;
+    padding-top: 15px;
   }
   &__text {
     display: flex;
     flex-direction: column;
     span {
       display: inline-block;
-      font-size: 1.1688rem;
-      line-height: 1.8831rem;
+      font-size: 18px;
+      line-height: 29px;
     }
   }
   &__button {
-    padding-top: 2.5974rem;
+    padding-top: 40px;
   }
 }
 
@@ -541,16 +499,12 @@ header {
 .catalog {
   &__pic {
     right: 0;
-    top: -9.7403rem;
-    img {
-      width: 43.1169rem;
-      height: 58.7662rem;
-    }
+    top: -150px;
   }
   &__row {
     display: flex;    
     justify-content: space-between;
-    padding-top: 3.2468rem;
+    padding-top: 50px;
   }
   &__overlay {
     position: absolute;
@@ -559,7 +513,7 @@ header {
     top: 0;
     background: #501B12; 
     opacity: 0.6; 
-    border-radius: 0.5195rem;
+    border-radius: 8px;
   }
   &__item {  
     @include card;
@@ -568,15 +522,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 3.5714rem;
+    padding-bottom: 55px;
   }
   &__new {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 4.0260rem;
-    height: 1.8182rem;
-    border-radius: 1.1688rem;
+    width: 62px;
+    height: 28px;
+    border-radius: 17.5px;
     background-color: #d73f00;
     span {
       font-family: 'Montserrat-Medium';
@@ -586,30 +540,30 @@ header {
     font-family: 'Montserrat-Medium';
     span {
       display: inline;
-      font-size: 1.1688rem;
+      font-size: 18px;
     }
   }
   &__descr {
     display: flex;
     justify-content: space-between;
-    padding: 1.2987rem 0 2.5974rem 0;
+    padding: 20px 0 40px 0;
   }
   &__price {
     &Pic {
-      width: 1.4286rem;
+      width: 22px;
     }
   }
   &__length {
     &Pic {
-      width: 1.4286rem;
+      width: 22px;
     }
   }
   &__stat {
     &Title {
-      padding-top: 0.6494rem;
+      padding-top: 10px;
     }
     &Length {
-      margin-top: 0.3247rem;
+      margin-top: 5px;
     }
   }
   &__button {
@@ -618,33 +572,33 @@ header {
   }
   &__link { 
       @include underline;
-      padding-top: 0.6494rem;
+      padding-top: 10px;
   }
   &__buttonElse {
     display: flex;
     justify-content: center;
-    padding-top: 2.5974rem;
+    padding-top: 40px;
   }
 }
 .firstCard {
   background-image: url(../img/firstFrame.png);
   .catalog__itemFrame {
-    top: 0.6494rem;
-    right: 0.6494rem;
+    top: 10px;
+    right: 10px;
   }
 }
 .secondCard {
   background-image: url(../img/secondFrame.png);
   .catalog__itemFrame {
-    bottom: 0.6494rem;
-    left: 0.6494rem;
+    bottom: 10px;
+    left: 10px;
   }
 }
 .thirdCard {
   background-image: url(../img/thirdFrame.png);
   .catalog__itemFrame {
-    top: 0.6494rem;
-    left: 0.6494rem;
+    top: 10px;
+    left: 10px;
   }
 }
 
@@ -653,50 +607,46 @@ header {
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding-top: 14.9351rem;
+  padding-top: 230px;
   &__pic {
     top: 0;
-    img {
-      width: 24.9351rem;
-      height: 60.9740rem;
-    }
   }
   &__text {
-    width: 35.7143rem;
+    width: 550px;
   }
   &__block {
     &Raise {
-      padding: 3.5714rem 0 2.9221rem 0;
+      padding: 55px 0 45px 0;
       .lecture__text {
-        padding-left: 5.1948rem;
+        padding-left: 80px;
       }
     }
   }
   &__teasers {
     position: absolute;
     right: 0;
-    top: 7.7922rem;
+    top: 120px;
   }
   &__teaser { 
     position: relative; 
-    width: 31.3636rem;
-    height: 12.9221rem;
-    border-radius: 0.5195rem;
+    width: 483px;
+    height: 199px;
+    border-radius: 8px;
     background-size: cover;
     background-position: bottom;
     &First {
-      margin: 0 0 1.6234rem 9.0909rem;
+      margin: 0 0 25px 140px;
       background-image: url(../img/lection--first.png);
     }
     &Second {
-      margin: 0 0 1.6234rem 4.5455rem;
+      margin: 0 0 25px 70px;
       background-image: url(../img/lection--second.png);
     }
     &Third {
       background-image: url(../img/lection--third.png);
     }
     &Text {
-      padding-left: 1.6234rem;
+      padding-left: 25px;
     }
   }
   &__overlay {
@@ -706,29 +656,29 @@ header {
     top: 0;
     opacity: 0.3;
     background: linear-gradient(to right, #021f29, #501b12);
-    border-radius: 0.5195rem;
+    border-radius: 8px;
     z-index: 1;
   }
   &__box {
     position: relative;
     z-index: 1;
-    padding: 1.9481rem 0 0 1.2987rem;
-    width: 31.3636rem;
-    height: 12.9221rem;
+    padding: 30px 0 0 20px;
+    width: 483px;
+    height: 199px;
     opacity: 1;
-    border-radius: 0.5195rem;
+    border-radius: 8px;
     color: #ffffff;
   }
   &__shadow {  
     position: absolute;
     z-index: -1; 
-    width: 31.3636rem;
-    height: 12.9221rem;
+    width: 483px;
+    height: 199px;
     opacity: 0.3;
-    border-radius: 0.9091rem;
+    border-radius: 14px;
     background: linear-gradient(to right, #021f29, #501b12);
-    top: 0.6494rem;
-    left: 0.6494rem;
+    top: 10px;
+    left: 10px;
   }
 }
 
@@ -736,91 +686,83 @@ header {
 .mission {
   position: relative;
   display: flex;
-  padding-top: 29.5455rem;
+  padding-top: 455px;
   &__content {
-    width: 37.6623rem;
+    width: 580px;
   }
   &__pic {
     position: absolute;
-    left: 42.2078rem;
-    img {
-      top: 21.8182rem;
-      width: 49.3506rem;
-    }
+    left: 650px;
+    top: 336px;
+    width: 760px;
   }
 }
 
 //teaser 
 .teaser {
-  padding-top: 7.4675rem;
+  padding-top: 115px;
   display: flex;
   justify-content: space-between;
   &__item {
-    width: 21.4286rem;
+    width: 330px;
     &:last-child {
-      width: 14.6104rem;
-      margin-right: 7.7922rem;
+      width: 225px;
+      margin-right: 120px;
     }
   }
   &__subtitle {
-    padding-bottom: 0.6494rem;
+    padding-bottom: 10px;
   }
 }
 
 //visit 
 .visit {
   display: flex;
-  padding-top: 14.6104rem;
+  padding-top: 225px;
   &__item {
     @include card;
     &.secondCard {
-      margin-left: 1.9481rem;
+      margin-left: 30px;
       .catalog__itemFrame {
-        border: 0.1948rem solid hsla(0, 0%, 100%, 0.6);
+        border: 3px solid hsla(0, 0%, 100%, 0.6);
       }
     }
   }
   &__descr {
     color: #ffffff;
-    padding-left: 3.2468rem;
+    padding-left: 50px;
   }
   &__title {
-    padding-bottom: 3.2468rem;
+    padding-bottom: 50px;
   }
   &__pic {
-    top: 3.8961rem;
+    top: 60px;
     right: 0;
     z-index: -2;
-    img {
-      width: 76.1039rem;
-      height: 53.4416rem;
-    }
   }
 }
 
 //blog 
 .blog {
-  padding-top: 28.8961rem;
+  padding-top: 445px;
   &__item {
-    /* width: 32.3377rem!important; */
-    height: 28.8312rem;
+    /* width: 498px!important; */
+    height: 444px;
     overflow: hidden;
-    border-radius: 0.5195rem;
-    box-shadow: 0 0.2597rem 2.2078rem 0 rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    box-shadow: 0 4px 34px 0 rgba(0, 0, 0, 0.16);
   }
   &__box {
-    padding: 0.9740rem 1.9481rem 1.6234rem 1.9481rem;
+    padding: 15px 30px 25px 30px;
     background: #ffffff;
   }
   &__pic {  
+    width: 498px;
+    height: 295px;
     background-size: cover;
-    img {
-      width: 32.3377rem;
-      height: 19.1558rem;
-    }
   }
   &__text {
-    padding: 0.3896rem 0 0.7792rem 0;
+    padding: 6px 0 12px 0;
   }
   &__link {
     a {
@@ -831,11 +773,11 @@ header {
     }
   }
   &__slider {
-    padding-top: 2.2727rem;
-    max-width: 70.1299rem;
-    margin: 0 auto 1.9481rem auto;
+    padding-top: 35px;
+    max-width: 1080px;
+    margin: 0 auto 30px auto;
     .slick-dots li button::before {
-      font-size: 1.0390rem;
+      font-size: 16px;
       color: #fff;
       opacity: 1;
     }
@@ -843,15 +785,15 @@ header {
       color: $melonColor;
     }
     .slick-slide {
-      width: 32.3377rem;
-      height: 16.2338rem;
-      margin: 0 2.5974rem;
-      padding: 0.9740rem;
+      width: 498px;
+      height: 250px;
+      margin: 0 40px;
+      padding: 15px;
     }
   }
   &__button {
     a {
-      margin: 2.9221rem auto 0;
+      margin: 45px auto 0;
       color: #ffffff;
     }
   }
@@ -861,35 +803,29 @@ header {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 7.4026rem 0 5.1948rem 0;
+  padding: 114px 0 80px 0;
   color: #ffffff;
   &__pic {
     bottom: 0;
-    img {
-      width: 123.5714rem;
-      height: 84.9351rem;
-    }
   }
   &__social {
-    width: 24.0260rem;
+    width: 370px;
   }
   &__logo {
-    img {
-      width: 6.8182rem;
-      height: 4.2208rem;
-    }
+    width: 105px;
+    height: 65px;
   }
   &__title {
-    padding: 0.6494rem 0 1.2987rem 0;
+    padding: 10px 0 20px 0;
   }
   &__icons {
     display: flex;
-    padding-top: 0.6494rem;
+    padding-top: 10px;
   }
   &__icon {
-    width: 2.6623rem;
-    height: 2.6623rem;
-    margin-right: 1.1039rem;
+    width: 41px;
+    height: 41px;
+    margin-right: 17px;
   }
   &__button {
     a {
@@ -897,16 +833,16 @@ header {
     }
   }
   &__menu {
-    font-size: 1.1688rem;
+    font-size: 18px;
     &Title {
-      padding-bottom: 2.5974rem;
+      padding-bottom: 40px;
     }
   }
   &__item {
-    padding-bottom: 1.2987rem;
+    padding-bottom: 20px;
   }
   &__contact {
-    margin-right: 8.4416rem;
+    margin-right: 130px;
   }
 }
 
