@@ -69,7 +69,7 @@ const Layout = ({children}) => (
             <a href="" className="button button-white">View our catalog</a>
           </div>
           <div className="online__teasers">
-            <div className="online__teaser">
+            <div className="online__teaser"> 
               <p className="title title--teaser">200</p>
               <span className="text text--teaser">excursions</span>
             </div>
