@@ -71,7 +71,7 @@ const Layout = ({children}) => (
           <div className="online__teasers">
             <div className="online__teaser">
               <p className="title title--teaser">200</p>
-              <span className="text text--teaser">&amp;&ensp;excursions</span>
+              <span className="text text--teaser">excursions</span>
             </div>
             <div className="online__teaser">
               <p className="title title--teaser">1&nbsp;100</p>
